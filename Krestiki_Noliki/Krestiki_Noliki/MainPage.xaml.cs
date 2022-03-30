@@ -74,7 +74,7 @@ namespace Krestiki_Noliki
 
         private async void Music_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new media());
+            await Navigation.PushAsync(new SoundPage());
         }
 
         int voit = 0;
